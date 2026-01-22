@@ -1,48 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Under Construction</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Club América RHS</title>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
     body {
       margin: 0;
-      height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #002f6c, #f2a900);
+      color: white;
+      min-height: 100vh;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
       align-items: center;
-      background: #0f1724;
-      color: #e6eef6;
-      font-family: Inter, system-ui, sans-serif;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+      padding: 20px;
       text-align: center;
     }
-    h1 {
-      font-size: 2rem;
+
+    .logo {
+      font-size: 2.2rem;
+      font-weight: bold;
       margin-bottom: 10px;
     }
-    p {
-      color: #9aa6b2;
-      margin-bottom: 20px;
+
+    .subtitle {
+      font-size: 1rem;
+      opacity: 0.9;
+      margin-bottom: 30px;
     }
-    .links a {
-      color: #ffb020;
+
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
       text-decoration: none;
-      margin: 0 10px;
+      background: white;
+      color: #002f6c;
+      padding: 14px;
+      border-radius: 12px;
+      margin-bottom: 15px;
+      font-size: 1.05rem;
       font-weight: 600;
-      transition: opacity 0.2s;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
     }
-    .links a:hover {
-      opacity: 0.7;
+
+    .link i {
+      font-size: 1.2rem;
+    }
+
+    .link:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    footer {
+      margin-top: 25px;
+      font-size: 0.85rem;
+      opacity: 0.8;
     }
   </style>
 </head>
 <body>
-  <h1>🚧 Under Construction 🚧</h1>
-  <p>We’re working hard to bring you something awesome. Check back soon!</p>
-  <div class="links">
-    <a href="mailto:info@clubamericarhs.com">Email Us</a>
-    <a href="https://www.instagram.com/clubamericarhs?igsh=N2dsZzY2dGdvb3Rz&utm_source=qr" target="_blank">Instagram</a>
+
+  <div class="container">
+    <div class="logo">Club America RHS</div>
+    <div class="subtitle">Official School Club Links</div>
+
+    <a class="link" href="https://instagram.com/clubamericarhs" target="_blank">
+      <i class="fab fa-instagram"></i>
+      Instagram
+    </a>
+
+    <a class="link" href="mailto:info@clubamericarhs.com">
+      <i class="fas fa-envelope"></i>
+      Email Us
+    </a>
+
+    <a class="link" href="https://forms.google.com" target="_blank">
+      <i class="fas fa-clipboard-list"></i>
+      Sign-Up Form
+    </a>
+
+    <a class="link" href="https://clubamerica.com" target="_blank">
+      <i class="fas fa-globe"></i>
+      Club América Official Site
+    </a>
+
+    <footer>
+      © Club América RHS
+    </footer>
   </div>
+
 </body>
 </html>
